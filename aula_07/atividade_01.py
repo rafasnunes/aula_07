@@ -14,6 +14,8 @@
 # Calcular o dobro, triplo e quadrado
 # Retornar estes três valores para serem apresentados no programa principal.
 
+# Funções
+
 def calculo(n):  
     d = n * 2
     t = n * 3
@@ -21,8 +23,10 @@ def calculo(n):
 
     return d, t, q
 
+# Início do programa
+
 num = int(input('Insira o número para o calculo: '))
 
-calculo1, calculo2, calculo3 = calculo(num)
+calculo1, calculo2, calculo3 = calculo(num) # Chama a função calculo enviando o valor da variavel 'num" para a função calculo e recebe de retorno 3 variaveis, por isso criacao de 3 variaveis no começo.
 
 print(f'O dobro do número é {calculo1}. O triplo do número é {calculo2}. O número ao quadrado é {calculo3}')
