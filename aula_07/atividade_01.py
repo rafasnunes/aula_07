@@ -18,7 +18,7 @@
 
 # Funções
 
-def calculo(n):  
+def calculo(n):
     d = n * 2
     t = n * 3
     q = n ** 2
@@ -30,6 +30,6 @@ def calculo(n):
 
 num = int(input('Insira o número para o calculo: '))
 
-calculo1, calculo2, calculo3 = calculo(num) # Chama a função calculo enviando o valor da variavel 'num" para a função calculo e recebe de retorno 3 variaveis, por isso criacao de 3 variaveis no começo.
+calculo1, calculo2, calculo3 = calculo(num) # Chama a função calculo enviando o valor da variavel 'num" para a função calculo e recebe de retorno 3 resultados, por isso criacao de 3 variaveis no começo.
 
 print(f'O dobro do número é {calculo1}. O triplo do número é {calculo2}. O número ao quadrado é {calculo3}')
