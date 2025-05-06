@@ -1,12 +1,14 @@
 # Atividade Prática
 
-# Uma gráfica precisa de um programa que, dado um número, calcule o dobro, o triplo e o quadrado desse número para agilizar seus orçamentos.
+# Uma gráfica precisa de um programa que, dado um número, calcule o dobro, o
+# triplo e o quadrado desse número para agilizar seus orçamentos.
 
 # O dobro da quantidade solicitada (para ofertas promocionais)
 # O triplo (para grandes eventos)
-# E a área total de um adesivo, considerando que o número informado é o lado do adesivo em centimetros.
+# E a área total de um adesivo, considerando que o número informado é o lado
+# do adesivo em centimetros.
 
-#Crie uma função que faça esses cálculos e mostre os resultados na tela.
+# Crie uma função que faça esses cálculos e mostre os resultados na tela.
 
 # Requisito
 
@@ -24,6 +26,7 @@ def calculo(n):
     return d, t, q
 
 # Início do programa
+
 
 num = int(input('Insira o número para o calculo: '))
 
